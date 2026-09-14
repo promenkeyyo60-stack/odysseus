@@ -1,0 +1,30 @@
+# YouTube Shorts Otomasyon — Bağımlılıklar
+# pip install -r youtube_automation/requirements.txt
+
+# Temel
+python-dotenv>=1.0.0
+requests>=2.31.0
+httpx>=0.27.0
+
+# AI / LLM
+openai>=1.40.0
+
+# Seslendirme (ElevenLabs & Edge-TTS)
+elevenlabs>=1.9.0
+edge-tts>=6.1.0
+
+# Zamanlayıcı
+schedule>=1.2.0
+
+# Yardımcı
+Pillow>=10.0.0
+tqdm>=4.66.0
+colorama>=0.4.6
+
+# Profesyonel Video Montaj
+moviepy>=1.0.3
+
+# YouTube API
+google-api-python-client>=2.100.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=0.5.0
